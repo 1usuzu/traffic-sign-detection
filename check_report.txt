@@ -1,0 +1,92 @@
+============================================================
+KIỂM TRA DATASET - 2025-11-15 14:19:07
+============================================================
+
+File data.yaml:
+   nc: 58
+   Số tên lớp: 58
+
+--- KIỂM TRA SPLIT: TRAIN ---
+    Tất cả nhãn hợp lệ.
+    Số ảnh: 9536, Số file nhãn: 9536
+
+--- KIỂM TRA SPLIT: VALID ---
+    Tất cả nhãn hợp lệ.
+    Số ảnh: 784, Số file nhãn: 784
+
+--- KIỂM TRA SPLIT: TEST ---
+    Tất cả nhãn hợp lệ.
+    Số ảnh: 613, Số file nhãn: 613
+
+============================================================
+THỐNG KÊ SỐ LƯỢNG MỖI LỚP (TỔNG train + valid + test)
+============================================================
+
+ 0 |    71 | OK      | Hết tốc độ tối đa cho phép
+ 1 |   933 | OK      | Cấm đi ngược chiều
+ 2 |   188 | OK      | Cấm ô tô
+ 3 |    47 | OK      | Cấm ô tô rẽ phải
+ 4 |   296 | OK      | Cấm ô tô rẽ trái
+ 5 |   131 | OK      | Cấm mô tô
+ 6 |   303 | OK      | Cấm xe ô tô tải
+ 7 |   422 | OK      | Cấm xe ô tô tải (theo trọng lượng)
+ 8 |    75 | OK      | Cấm ô tô khách và ô tô tải
+ 9 |    59 | OK      | Cấm người đi bộ
+10 |    62 | OK      | Hạn chế trọng lượng trên trục xe
+11 |   528 | OK      | Hạn chế chiều cao
+12 |    45 | OK      | Cấm rẽ trái
+13 |   351 | OK      | Cấm rẽ phải
+14 |   226 | OK      | Cấm quay xe
+15 |    31 | OK      | Cấm ô tô quay xe
+16 |    32 | OK      | Cấm rẽ trái và quay xe
+17 |     2 | OK      | Cấm ô tô vượt
+18 |  4437 | OK      | Tốc độ tối đa cho phép
+19 |    12 | OK      | Cấm sử dụng còi
+20 |  2888 | OK      | Cấm dừng xe và đỗ xe
+21 |  2366 | OK      | Cấm đỗ xe
+22 |    63 | OK      | Hết hạn chế chiều cao
+23 |     5 | OK      | Đi chậm
+24 |    91 | OK      | Hướng đi thẳng phải theo
+25 |    66 | OK      | Hướng rẽ phải phải theo
+26 |    56 | OK      | Hướng rẽ trái phải theo
+27 |   855 | OK      | Hướng phải đi vòng chướng ngại vật (trái)
+28 |   107 | OK      | Hướng phải đi vòng chướng ngại vật (phải)
+29 |   158 | OK      | Nơi giao nhau chạy theo vòng xuyến
+30 |   205 | OK      | Đường một chiều
+31 |   141 | OK      | Chỗ quay xe
+32 |    32 | OK      | Bệnh viện
+33 |   321 | OK      | Bến xe buýt
+34 |   278 | OK      | Thuyết minh về cấm rẽ (biển phụ)
+35 |   350 | OK      | Chỗ ngoặt nguy hiểm vòng bên trái
+36 |   297 | OK      | Chỗ ngoặt nguy hiểm vòng bên phải
+37 |   115 | OK      | Nhiều chỗ ngoặt nguy hiểm liên tiếp (trái)
+38 |    89 | OK      | Nhiều chỗ ngoặt nguy hiểm liên tiếp (phải)
+39 |    91 | OK      | Đường bị hẹp về phía trái
+40 |    74 | OK      | Đường bị hẹp về phía phải
+41 |   176 | OK      | Giao nhau của các tuyến đường cùng cấp
+42 |    21 | OK      | Giao nhau với đường không ưu tiên (trái)
+43 |   143 | OK      | Giao nhau với đường không ưu tiên (phải)
+44 |   192 | OK      | Giao nhau với đường không ưu tiên (hình Y)
+45 |   816 | OK      | Giao nhau với đường không ưu tiên (chữ T, trái)
+46 |   204 | OK      | Giao nhau với đường không ưu tiên (hình Y, phải)
+47 |    89 | OK      | Giao nhau với đường ưu tiên
+48 |    66 | OK      | Giao nhau có tín hiệu đèn
+49 |   119 | OK      | Giao nhau với đường sắt có rào chắn
+50 |    15 | OK      | Dốc xuống nguy hiểm
+51 |     2 | OK      | Đường có lề đường nguy hiểm
+52 |   879 | OK      | Đường người đi bộ cắt ngang
+53 |   236 | OK      | Trẻ em
+54 |    70 | OK      | Công trường
+55 |    84 | OK      | Nguy hiểm khác
+56 |     5 | OK      | Bắt đầu đường đôi
+57 |   567 | OK      | Đi chậm
+
+============================================================
+TỔNG KẾT
+============================================================
+
+ TẤT CẢ ĐỀU HỢP LỆ.
+   Sẵn sàng để train!
+
+============================================================
+HOÀN TẤT KIỂM TRA: 14:19:53

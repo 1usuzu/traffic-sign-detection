@@ -1,0 +1,23 @@
+# Virtual env
+venv/
+.venv/
+
+# Datasets
+train/
+valid/
+test/
+images/
+
+# YOLO outputs
+runs/
+
+# Model weights
+*.pt
+
+# Cache
+__pycache__/
+*.log
+
+# IDE
+.vscode/
+.idea/

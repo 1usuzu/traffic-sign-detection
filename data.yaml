@@ -1,0 +1,69 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 58
+names:
+  - 'Hết tốc độ tối đa cho phép'                    # 0: DP.135
+  - 'Cấm đi ngược chiều'                            # 1: P.102
+  - 'Cấm ô tô'                                      # 2: P.103a
+  - 'Cấm ô tô rẽ phải'                              # 3: P.103b
+  - 'Cấm ô tô rẽ trái'                              # 4: P.103c
+  - 'Cấm mô tô'                                     # 5: P.104
+  - 'Cấm xe ô tô tải'                               # 6: P.106a
+  - 'Cấm xe ô tô tải (theo trọng lượng)'            # 7: P.106b
+  - 'Cấm ô tô khách và ô tô tải'                    # 8: P.107a
+  - 'Cấm người đi bộ'                               # 9: P.112
+  - 'Hạn chế trọng lượng trên trục xe'              # 10: P.115
+  - 'Hạn chế chiều cao'                             # 11: P.117
+  - 'Cấm rẽ trái'                                   # 12: P.123a
+  - 'Cấm rẽ phải'                                   # 13: P.123b
+  - 'Cấm quay xe'                                   # 14: P.124a
+  - 'Cấm ô tô quay xe'                              # 15: P.124b
+  - 'Cấm rẽ trái và quay xe'                        # 16: P.124c
+  - 'Cấm ô tô vượt'                                 # 17: P.125
+  - 'Tốc độ tối đa cho phép'                        # 18: P.127
+  - 'Cấm sử dụng còi'                               # 19: P.128
+  - 'Cấm dừng xe và đỗ xe'                          # 20: P.130
+  - 'Cấm đỗ xe'                                     # 21: P.131a
+  - 'Hết hạn chế chiều cao'                         # 22: P.137
+  - 'Đi chậm'                                       # 23: P.245a
+  - 'Hướng đi thẳng phải theo'                      # 24: R.301c
+  - 'Hướng rẽ phải phải theo'                       # 25: R.301d
+  - 'Hướng rẽ trái phải theo'                       # 26: R.301e
+  - 'Hướng phải đi vòng chướng ngại vật (trái)'     # 27: R.302a
+  - 'Hướng phải đi vòng chướng ngại vật (phải)'     # 28: R.302b
+  - 'Nơi giao nhau chạy theo vòng xuyến'            # 29: R.303
+  - 'Đường một chiều'                               # 30: R.407a
+  - 'Chỗ quay xe'                                   # 31: R.409
+  - 'Bệnh viện'                                     # 32: R.425
+  - 'Bến xe buýt'                                   # 33: R.434
+  - 'Thuyết minh về cấm rẽ (biển phụ)'              # 34: S.509a
+  - 'Chỗ ngoặt nguy hiểm vòng bên trái'             # 35: W.201a
+  - 'Chỗ ngoặt nguy hiểm vòng bên phải'             # 36: W.201b
+  - 'Nhiều chỗ ngoặt nguy hiểm liên tiếp (trái)'    # 37: W.202a
+  - 'Nhiều chỗ ngoặt nguy hiểm liên tiếp (phải)'    # 38: W.202b
+  - 'Đường bị hẹp về phía trái'                     # 39: W.203b
+  - 'Đường bị hẹp về phía phải'                     # 40: W.203c
+  - 'Giao nhau của các tuyến đường cùng cấp'        # 41: W.205a
+  - 'Giao nhau với đường không ưu tiên (trái)'      # 42: W.205b
+  - 'Giao nhau với đường không ưu tiên (phải)'      # 43: W.205d
+  - 'Giao nhau với đường không ưu tiên (hình Y)'    # 44: W.207a
+  - 'Giao nhau với đường không ưu tiên (chữ T, trái)'   # 45: W.207b
+  - 'Giao nhau với đường không ưu tiên (hình Y, phải)'  # 46: W.207c
+  - 'Giao nhau với đường ưu tiên'                   # 47: W.208
+  - 'Giao nhau có tín hiệu đèn'                     # 48: W.209
+  - 'Giao nhau với đường sắt có rào chắn'           # 49: W.210
+  - 'Dốc xuống nguy hiểm'                           # 50: W.219
+  - 'Đường có lề đường nguy hiểm'                   # 51: W.221b
+  - 'Đường người đi bộ cắt ngang'                   # 52: W.224
+  - 'Trẻ em'                                        # 53: W.225
+  - 'Công trường'                                   # 54: W.227
+  - 'Nguy hiểm khác'                                # 55: W.233
+  - 'Bắt đầu đường đôi'                             # 56: W.235
+  - 'Đi chậm'                                       # 57: W.245a
+
+roboflow:
+  workspace: traffic-sign-detection
+  project: vietnam-traffic-sign-detection
+  version: 5
