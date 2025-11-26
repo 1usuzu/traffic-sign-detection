@@ -6,20 +6,6 @@ Dự án xây dựng hệ thống nhận diện biển báo giao thông tại Vi
 
 ---
 
-## Mục lục
-
-- [Tính năng chính](#-tính-năng-chính)
-- [Dữ liệu (Dataset)](#-dữ-liệu-dataset)
-- [Cài đặt](#-cài-đặt)
-- [Hướng dẫn sử dụng](#-hướng-dẫn-sử-dụng)
-- [Cấu trúc thư mục](#-cấu-trúc-thư-mục)
-- [Kết quả](#-kết-quả)
-- [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
-- [Đóng góp](#-đóng-góp)
-- [Giấy phép](#-giấy-phép)
-
----
-
 ## Tính năng chính
 
 ### Nhận diện đa lớp
